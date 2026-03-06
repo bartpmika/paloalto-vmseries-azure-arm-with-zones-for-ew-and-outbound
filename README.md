@@ -1,6 +1,8 @@
 # Palo Alto VM-Series ARM Template
 
-Azure ARM template for deploying Palo Alto Networks VM-Series firewalls in an availability zone configuration with internal load balancing.
+Azure ARM template for deploying 2 or 3 Palo Alto Networks VM-Series firewalls across selected availability zones for outbound and east-west traffic inspection, with internal load balancing.
+
+This template is designed for Azure regions that support multiple availability zones. For regions that only offer availability sets, a more appropriate template should be used.
 
 ## Architecture
 
