@@ -32,7 +32,7 @@
       },
       "VNETPrefix": {
         "type": "string",
-        "defaultValue": "10.47.26.0/24",
+        "defaultValue": "10.0.0.0/24",
         "metadata": {
           "description": "Enter a prefix for the virtual network."
         }
@@ -60,21 +60,21 @@
       },
       "subnetPrefix-Management": {
         "type": "string",
-        "defaultValue": "10.47.26.128/26",
+        "defaultValue": "10.0.0.128/26",
         "metadata": {
           "description": "Enter a subnet prefix for the firewall's management interface."
         }
       },
       "subnetPrefix-Public": {
         "type": "string",
-        "defaultValue": "10.47.26.0/26",
+        "defaultValue": "10.0.0.0/26",
         "metadata": {
           "description": "Enter a subnet prefix for the firewall's public interface."
         }
       },
       "subnetPrefix-Private": {
         "type": "string",
-        "defaultValue": "10.47.26.64/26",
+        "defaultValue": "10.0.0.64/26",
         "metadata": {
           "description": "Enter a subnet prefix for the firewall's private interface."
         }
@@ -95,7 +95,7 @@
       },
       "internalLBAddress": {
         "type": "string",
-        "defaultValue": "10.47.26.100",
+        "defaultValue": "10.0.0.100",
         "metadata": {
           "description": "Enter the frontend private IP of the internal load balancer.  The address must be within the load balancer subnet prefix."
         }

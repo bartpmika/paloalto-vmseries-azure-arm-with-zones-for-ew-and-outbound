@@ -29,11 +29,11 @@ Each firewall is deployed into a separate availability zone (1, 2, 3) by default
 | VM Size | Standard_F16s_v2 |
 | PAN-OS Version | 11.1.612 |
 | OS Disk Type | Premium_LRS |
-| VNET Prefix | 10.47.26.0/24 |
-| Management Subnet | 10.47.26.128/26 |
-| Public Subnet | 10.47.26.0/26 |
-| Private Subnet | 10.47.26.64/26 |
-| Internal LB Address | 10.47.26.100 |
+| VNET Prefix | 10.0.0.0/24 |
+| Management Subnet | 10.0.0.128/26 |
+| Public Subnet | 10.0.0.0/26 |
+| Private Subnet | 10.0.0.64/26 |
+| Internal LB Address | 10.0.0.100 |
 | MGMT Allow Prefix | 10.0.0.0/8 |
 | License Type | BYOL |
 | Accelerated Networking | Enabled (all NICs) |
